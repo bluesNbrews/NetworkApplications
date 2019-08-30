@@ -1,8 +1,9 @@
-import os.path
 import sys
 
-#Checking IP address file and content validity
-def ip_addr_valid():
+#Checking octets
+def ip_addr_valid(list):
 
-	pass
+	for ip in list:
+		ip = ip.rstrip("\n")
+		octet_list = ip.split('.') 
 
