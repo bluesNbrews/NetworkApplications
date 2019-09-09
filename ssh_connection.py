@@ -27,3 +27,14 @@ if os.path.isfile(cmd_file) == True:
 else:
 	print("\n* File {} does not exist. Please check and try again.\n".format(cmd_file))
 	sys.exit()
+
+#Open SSHv2 connection to the device
+def ssh_connection(ip):
+
+	global user_file
+	global cmd_file
+
+	#Creating SSH Connection
+	#try:
+	#except:
+
