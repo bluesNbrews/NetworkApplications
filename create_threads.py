@@ -1,7 +1,7 @@
 import threading
 
 #Creating threads
-def create_threads(list, function)
+def create_threads(list, function):
 
 	threads = []
 

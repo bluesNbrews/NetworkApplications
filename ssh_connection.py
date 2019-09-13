@@ -6,7 +6,7 @@ import re
 
 #Checking username/password file
 #Prompting user for input - USERNAME/PASSWORD FILE
-user_file = input("\n# Enter user file path and name (e.g. ~/NetworkApplications/myfile.txt): ")
+user_file = input("\n# Enter user file path and name (e.g. /Users/stevenwilliams/NetworkApplications/user.txt): ")
 
 #Verifying the validity of the USERNAME/PASSWORD file
 if os.path.isfile(user_file) == True:
@@ -18,7 +18,7 @@ else:
 
 #Checking commands file
 #Prompting user for input - COMMANDS FILE
-cmd_file = input("\n# Enter commands file path name (e.g. ~/NetworkApplications/myfile.txt): ")
+cmd_file = input("\n# Enter commands file path name (e.g. /Users/stevenwilliams/NetworkApplications/cmd.txt): ")
 
 #Verifying the validity of the COMMANDS FILE
 if os.path.isfile(cmd_file) == True:
@@ -93,11 +93,11 @@ def ssh_connection(ip):
 		#Checking command output for IOS syntax errors
 		router_output = connection.recv(65535)
 
-		if re.search(b"% Invalid input", router_output)
+		if re.search(b"% Invalid input", router_output):
 			print("* There was at least one IOS syntax error on device {} :".format(ip))
 
 		else:
-			print("\nDone foe device {}\n".format(ip))
+			print("\nDone for device {}\n".format(ip))
 
 		#Test for reading command output
 		print(str(router_output) + "\n")
