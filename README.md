@@ -24,11 +24,23 @@ You will need to create an account (https://eos.arista.com/user-manager/?action=
 
 Download here: https://www.virtualbox.org/wiki/Downloads. You will need to setup the vmdk and iso files.
 
-> Python 3.6.5
+> Python 3.6.5 - See packages below (recommend using virtual environment)
+
+![NetworkApplications3](https://github.com/bluesNbrews/NetworkApplications/blob/master/img/)
 
 ## Project 1 - Switch Configuration via Secure Shell (SSH)
 
-Project 1
+The objective of this project is to automate commands on one or more switches using Python. 
+
+There are 3 files that can be used for configuration - username(s)/password(s), commands, and Internet Protocol (IP) addresses. The program will first check that the files are valid and that the IP addresses can be reached via ping.
+
+![NetworkApplications4](https://github.com/bluesNbrews/NetworkApplications/blob/master/img/)
+
+If the checks pass, then the program will run the commands below on all 3 Arista switches (must be running in Virtual Box). The ouput from the switches will need to be cleaned up for better readability, this is an arbitrary example to show the functionality. 
+
+![NetworkApplications5](https://github.com/bluesNbrews/NetworkApplications/blob/master/img/)
+
+![NetworkApplications6](https://github.com/bluesNbrews/NetworkApplications/blob/master/img/)
 
 ## Show your support
 
