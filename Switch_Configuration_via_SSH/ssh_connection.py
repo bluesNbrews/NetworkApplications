@@ -100,10 +100,10 @@ def ssh_connection(ip):
 			print("\nDone for device {}\n".format(ip))
 
 		#Test for reading command output
-		#print(str(router_output) + "\n")
+		print(str(router_output) + "\n")
 		
 		#Extract IP address only from command output
-		print(re.findall(r"[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}", str(router_output))[1])
+		#print(re.findall(r"[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}", str(router_output))[1])
 
 
 		#Closing the connection
