@@ -2,11 +2,11 @@
 
 ![NetworkApplications2](https://github.com/bluesNbrews/NetworkApplications/blob/master/img/network.png)
 
-# Network Application - Projects from the Udemy Course Python 3 Network Programming
+# Network Application 
 
-> 5 total projects
+> 1 completed project, 1 pending
 
-## Creator (taught by Milhai Catalin Teodosiu)
+## Author
 
 👤 **Steven Williams**
 
