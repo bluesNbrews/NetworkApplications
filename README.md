@@ -2,7 +2,7 @@
 
 ![NetworkApplications2](https://github.com/bluesNbrews/NetworkApplications/blob/master/img/network.png)
 
-# Network Application 
+# Network Applications
 
 > 1 completed project, 1 pending
 
